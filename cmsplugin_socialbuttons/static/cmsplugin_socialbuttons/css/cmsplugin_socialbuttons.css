@@ -1,0 +1,68 @@
+.socialbutton {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 5px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  background: none !important;
+}
+
+.socialbutton img {
+  position: absolute;
+  top: 0;
+  max-width: 288px;
+  width: 288px;
+  height: 32px;
+}
+
+.facebook {
+  left: 0;
+  clip: rect(0 32px 32px 0);
+}
+
+.twitter {
+  left: -32px;
+  clip: rect(0 64px 32px 0);
+}
+
+.youtube {
+  left: -64px;
+  clip: rect(0 96px 32px 0);
+}
+
+.googleplus {
+  left: -96px;
+  clip: rect(0 128px 32px 0);
+}
+
+.rss {
+  left: -128px;
+  clip: rect(0 160px 32px 0);
+}
+
+.foursquare {
+  left: -160px;
+  clip: rect(0 192px 32px 0);
+}
+
+.github {
+  left: -192px;
+  clip: rect(0 224px 32px 0);
+}
+
+.instagram {
+  left: -224px;
+  clip: rect(0 256px 32px 0);
+}
+
+.flickr {
+  left: -256px;
+  clip: rect(0 288px 32px 0);
+}
+
+#socialbuttons_hover_title {
+  margin: 0;
+  clear: both;
+  height: 15px;
+}

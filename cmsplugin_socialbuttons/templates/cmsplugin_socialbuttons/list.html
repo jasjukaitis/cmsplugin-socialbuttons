@@ -1,0 +1,15 @@
+{% load i18n cmsplugin_socialbuttons_tags %}
+<div id="socialbuttons_list">
+  {% render_button "Facebook" instance.facebook "facebook" %}
+  {% render_button "Twitter" instance.twitter "twitter" %}
+  {% render_button "YouTube" instance.youtube "youtube" %}
+  {% render_button "Google+" instance.googleplus "googleplus" %}
+  {% render_button "RSS" instance.rss "rss" "Subscribe our %s feed!" %}
+  {% render_button "Foursquare" instance.foursquare "foursquare" %}
+  {% render_button "Github" instance.github "github" %}
+  {% render_button "Instagram" instance.instagram "instagram" %}
+  {% render_button "Flickr" instance.flickr "flickr" %}
+  <p id="socialbuttons_hover_title"></p>
+</div>
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}cmsplugin_socialbuttons/css/cmsplugin_socialbuttons.css" />
+<script type="text/javascript" src="{{ STATIC_URL }}cmsplugin_socialbuttons/js/cmsplugin_socialbuttons.js"></script>

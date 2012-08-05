@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-05 22:28+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: cms_plugins.py:12
+msgid "Social buttons"
+msgstr "Social Buttons"
+
+#: models.py:11
+msgid "Facebook"
+msgstr "Facebook"
+
+#: models.py:12
+msgid "Twitter"
+msgstr "Twitter"
+
+#: models.py:13
+msgid "YouTube"
+msgstr "YouTube"
+
+#: models.py:14
+msgid "Google+"
+msgstr "Google+"
+
+#: models.py:15
+msgid "RSS"
+msgstr "RSS"
+
+#: models.py:16
+msgid "Foursquare"
+msgstr "Foursquare"
+
+#: models.py:17
+msgid "Github"
+msgstr "Github"
+
+#: models.py:18
+msgid "Instagram"
+msgstr "Instagram"
+
+#: models.py:19
+msgid "Flickr"
+msgstr "Flickr"
+
+#: models.py:22
+msgid "Social buttons plugin"
+msgstr "Social Buttons Plugin"
+
+#: models.py:23
+msgid "Social buttons plugins"
+msgstr "Social Buttons Plugins"
+
+#: templatetags/cmsplugin_socialbuttons_tags.py:10
+#, python-format
+msgid "Visit us on %s!"
+msgstr "Besuche uns auf %s!"
+
+#: templates/cmsplugin_socialbuttons/list.html:7
+#, python-format
+msgid "Subscribe our %s feed!"
+msgstr "Abonniere unseren %s-Feed!"
