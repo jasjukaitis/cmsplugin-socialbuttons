@@ -41,6 +41,9 @@ Add ``cmsplugin_socialbuttons`` to the list of ``INSTALLED_APPS`` in your
 ``settings.py`` file.
 
 
+Please make sure, that jQuery is provided!
+
+
 LICENSE
 -------
 
