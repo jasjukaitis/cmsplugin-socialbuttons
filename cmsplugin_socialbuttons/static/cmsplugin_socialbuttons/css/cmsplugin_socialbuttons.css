@@ -1,64 +1,46 @@
 .socialbutton {
-  position: relative;
-  display: inline-block;
-  margin-bottom: 5px;
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
   width: 32px;
   height: 32px;
-  overflow: hidden;
-  background: none !important;
+  background-image: url(../img/buttons.png);
 }
 
-.socialbutton img {
-  position: absolute;
-  top: 0;
-  max-width: 288px;
-  width: 288px;
-  height: 32px;
+.socialbutton.facebook {
+  background-position: 0 0;
 }
 
-.facebook {
-  left: 0;
-  clip: rect(0 32px 32px 0);
+.socialbutton.twitter {
+  background-position: -32px 0;
 }
 
-.twitter {
-  left: -32px;
-  clip: rect(0 64px 32px 0);
+.socialbutton.youtube {
+  background-position: -64px 0;
 }
 
-.youtube {
-  left: -64px;
-  clip: rect(0 96px 32px 0);
+.socialbutton.googleplus {
+  background-position: -96px 0;
 }
 
-.googleplus {
-  left: -96px;
-  clip: rect(0 128px 32px 0);
+.socialbutton.rss {
+  background-position: -128px 0;
 }
 
-.rss {
-  left: -128px;
-  clip: rect(0 160px 32px 0);
+.socialbutton.foursquare {
+  background-position: -160px 0;
 }
 
-.foursquare {
-  left: -160px;
-  clip: rect(0 192px 32px 0);
+.socialbutton.github {
+  background-position: -192px 0;
 }
 
-.github {
-  left: -192px;
-  clip: rect(0 224px 32px 0);
+.socialbutton.instagram {
+  background-position: -224px 0;
 }
 
-.instagram {
-  left: -224px;
-  clip: rect(0 256px 32px 0);
-}
-
-.flickr {
-  left: -256px;
-  clip: rect(0 288px 32px 0);
+.socialbutton.flickr {
+  background-position: -256px 0;
 }
 
 #socialbuttons_hover_title {
