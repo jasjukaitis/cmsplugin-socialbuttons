@@ -44,6 +44,12 @@ Add ``cmsplugin_socialbuttons`` to the list of ``INSTALLED_APPS`` in your
 Please make sure, that jQuery is provided!
 
 
+Icons
+-----
+
+Icons from http://icondock.com/free/vector-social-media-icons
+
+
 LICENSE
 -------
 
