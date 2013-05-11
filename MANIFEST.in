@@ -2,3 +2,4 @@ include README.rst
 recursive-include cmsplugin_socialbuttons/templates *
 recursive-include cmsplugin_socialbuttons/static *
 recursive-include cmsplugin_socialbuttons/migrations *.py
+recursive-include cmsplugin_socialbuttons/locale *.py
