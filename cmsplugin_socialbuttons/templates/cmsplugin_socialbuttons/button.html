@@ -1,1 +1,7 @@
-{% if url %}<a href="{{ url }}" class="socialbutton {{ class }}" title="{{ title }}"></a>{% endif %}
+{% if url %}
+	{% if iconset == "MAP_DEFAULT_ICONS" %}
+	<a href="{{ url }}" class="socialbutton default {{ class }}" title="{{ title }}"></a>
+	{% elif iconset == "MAP_FONT_AWESOME" %}
+	<a href="{{ url }}" class="socialbutton fa" title="{{ title }}"><i class="fa fa-{{ class }}"></i></a>
+	{% endif %}
+{% endif %}

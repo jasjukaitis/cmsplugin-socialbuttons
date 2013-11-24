@@ -1,15 +1,15 @@
 {% load i18n cmsplugin_socialbuttons_tags sekizai_tags %}
 {% block socialbuttons %}
   <div id="socialbuttons_list">
-    {% render_button "Facebook" instance.facebook "facebook" %}
-    {% render_button "Twitter" instance.twitter "twitter" %}
-    {% render_button "YouTube" instance.youtube "youtube" %}
-    {% render_button "Google+" instance.googleplus "googleplus" %}
-    {% render_button "RSS" instance.rss "rss" "Subscribe our %s feed!" %}
-    {% render_button "Foursquare" instance.foursquare "foursquare" %}
-    {% render_button "Github" instance.github "github" %}
-    {% render_button "Instagram" instance.instagram "instagram" %}
-    {% render_button "Flickr" instance.flickr "flickr" %}
+    {% render_button instance "facebook" %}
+    {% render_button instance "twitter" %}
+    {% render_button instance "youtube" %}
+    {% render_button instance "googleplus" %}
+    {% render_button instance "rss" "Subscribe our %s feed!" %}
+    {% render_button instance "foursquare" %}
+    {% render_button instance "github" %}
+    {% render_button instance "instagram" %}
+    {% render_button instance "flickr" %}
     <p id="socialbuttons_hover_title"></p>
   </div>
 

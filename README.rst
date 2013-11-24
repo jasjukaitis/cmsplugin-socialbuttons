@@ -6,6 +6,9 @@ A simple plugin for adding social buttons.
 Default icons by Paul Robert Lloyd
 (http://paulrobertlloyd.com/2009/06/social_media_icons)
 
+Or you can use Font Awesome instead
+(http://fontawesome.io/)
+
 
 Supported buttons
 -----------------
@@ -47,7 +50,7 @@ Please make sure, that jQuery is provided!
 Icons
 -----
 
-Icons from http://icondock.com/free/vector-social-media-icons
+Icons from http://icondock.com/free/vector-social-media-icons and Font Awesome http://fontawesome.io/
 
 
 LICENSE

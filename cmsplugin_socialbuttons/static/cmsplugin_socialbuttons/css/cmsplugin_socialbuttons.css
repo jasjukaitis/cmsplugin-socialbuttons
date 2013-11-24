@@ -1,4 +1,4 @@
-.socialbutton {
+.default.socialbutton {
   display: inline-block;
   margin-bottom: 5px;
   width: 32px;
@@ -6,40 +6,46 @@
   background-image: url(../img/buttons.png);
 }
 
-.socialbutton.facebook {
+.default.socialbutton.facebook {
   background-position: 0 0;
 }
 
-.socialbutton.twitter {
+.default.socialbutton.twitter {
   background-position: -32px 0;
 }
 
-.socialbutton.youtube {
+.default.socialbutton.youtube {
   background-position: -64px 0;
 }
 
-.socialbutton.googleplus {
+.default.socialbutton.googleplus {
   background-position: -96px 0;
 }
 
-.socialbutton.rss {
+.default.socialbutton.rss {
   background-position: -128px 0;
 }
 
-.socialbutton.foursquare {
+.default.socialbutton.foursquare {
   background-position: -160px 0;
 }
 
-.socialbutton.github {
+.default.socialbutton.github {
   background-position: -192px 0;
 }
 
-.socialbutton.instagram {
+.default.socialbutton.instagram {
   background-position: -224px 0;
 }
 
-.socialbutton.flickr {
+.default.socialbutton.flickr {
   background-position: -256px 0;
+}
+
+.fa.socialbutton {
+  display: inline-block;
+  margin: 5px 5px 5px 0;
+  font-size: 32px;
 }
 
 #socialbuttons_hover_title {
